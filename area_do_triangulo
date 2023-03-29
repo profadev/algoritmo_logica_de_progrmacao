@@ -1,0 +1,17 @@
+programa {
+  //Questão 1 Faça um algoritmo que calcule e mostre a área de um triângulo; Área = (base * altura) / 2
+
+  funcao inicio() {
+    real area, altura, base
+
+    escreva("Digite a base: ")
+    leia(base)
+
+    escreva("Digite a altura: ")
+    leia(altura)
+
+    area = (base*altura)/2
+
+    escreva("A área do triâgulo é ", area)
+  }
+}
